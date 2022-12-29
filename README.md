@@ -4,7 +4,11 @@
 
 <br />
 
-> O projeto tem como objetivo utilizar a tecnologia AJAX para criar uma requisição assíncrona com o servidor e modificar elementos da página sem a necessidade de atualização.
+> O projeto tem como objetivo utilizar a tecnologia AJAX para criar uma requisição assíncrona com o servidor e modificar elementos da página sem a necessidade de atualização. A aplicação contém um painel com as últimas 10 operações do book diário do site [MercadoBitcoin](https://www.mercadobitcoin.com.br). A página atualiza automaticamente a cada 5 segundos, e também é possível buscar operações em datas passadas.
+
+## 💻 Deploy:
+
+- [Visualizar a aplicação](https://mizaelgoonfs.github.io/ajax-request/)
 
 ## 📖 AJAX
 
