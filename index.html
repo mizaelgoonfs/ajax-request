@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX Test | Book Mercado Bitcoin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+	<style>
+		body {
+			background-color: #2c272c;
+			color: white;
+		}
+		
+		#title_header {
+			text-align: center;
+		}
+		
+		#date {
+			font-family: monospace;
+			cursor: pointer;
+			width: 30%;
+			margin: 4% 1% 4% 1%;
+		}
+
+	</style>
+</head>
+<body onLoad=buscarOperacoes()>
+	
+	<h3 id="title_header">Painel diário do Mercado Bitcoin</h3>
+
+	<div class="container">
+		<label for="date">Buscar por data:</label>
+		<input type="date" id="date" name="date">
+		<button class="btn waves-effect waves-light" type="submit" onclick=btnBuscar()>Buscar</button>
+	</div>
+	
+
+	<div class="container">
+       <table id="table_info">
+            <thead>
+                <tr>
+                    <th>ID - Operação</th>
+                    <th>Data/Horário</th>
+					<th>Preço</th>
+                    <th>Montante - BTC</th>
+					<th>Tipo</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+  
+    <script type="text/javascript" src="backend.js"></script>
+
+</body>
+</html>
